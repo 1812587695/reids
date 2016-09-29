@@ -1,4 +1,7 @@
 ## 利用Redis做整点秒杀抢购
+
+#摘要: 利用redis的原子性操作，保证不多抢
+
     redis-cli     set miaosha_key 100
 下面是伪代码
 
